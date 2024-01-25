@@ -1,0 +1,178 @@
+body {
+    font-family: "komet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #d3fff3;
+    margin: 0;
+}
+
+nav {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #afbbf2;
+    padding: 0.5em;
+    border: 2px solid black;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+
+}
+
+.knop {
+    display: inline-block;
+    background-color: hsl(289, 91%, 31%);
+    border: none;
+    padding: 1.5em 1.5em;
+
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px #070e2e;
+
+}
+.home{
+    display: inline-block;
+    background-color: hsl(0, 0%, 0%);
+    border: none;
+    padding: 1.5em 1.5em;
+
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px #070e2e;
+
+}
+
+
+.knop2 {
+
+    display: inline-block;
+    background-color: #afbbf2;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 6.5em;
+    margin-bottom: 1em;
+    box-shadow: 2px 2px 5px #070e2e;
+
+}
+
+
+
+header img {
+    height: 25%;
+    width: 25%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #7f0799;
+
+}
+
+h1 {
+    font-family: 'impact';
+    display: flex;
+    justify-content: center;
+    color: rgb(15, 192, 15);
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 4px;
+}
+
+p {
+    text-align: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 0.8em;
+
+
+
+}
+
+ul {
+    text-align: left;
+    margin-right: 1em;
+    font-size: 0.8em;
+}
+
+footer {
+    margin-bottom: 4.5em;
+    padding-bottom: 1em;
+    background-color: #a2e8d5;
+
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+    border: 5px solid black;
+
+}
+
+:is(h2, h3, h4) {
+    margin-left: 1em;
+    color: #7f0799;
+}
+
+div h2 {
+    font-family: 'impact';
+    text-align: center;
+    margin-right: 1em;
+}
+
+article {
+
+    display: block;
+    float: right;
+    height: 30%;
+    width: 30%;
+    margin-right: 1em;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.kruiwagen {
+
+    margin-top: 1em;
+
+}
+
+.waarom{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+}
+
+footer a{
+    text-decoration: none;
+    transition: all 250ms ease;
+}
+    
+footer a:focus{
+    color: red;
+    font-size: 1.5em;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+   color: #386d6b;
+}
